@@ -80,6 +80,7 @@
               }
             },
             create: function(msg) {
+              this.dismiss();
               msg = (typeof msg === 'object') ? msg : {content: msg};
 
               if (defaults.combineDuplications) {
