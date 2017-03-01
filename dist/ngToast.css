@@ -1,6 +1,6 @@
 /*!
  * ngToast v2.0.0 (http://tameraydin.github.io/ngToast)
- * Copyright 2016 Tamer Aydin (http://tamerayd.in)
+ * Copyright 2017 Tamer Aydin (http://tamerayd.in)
  * Licensed under MIT (http://tameraydin.mit-license.org/)
  */
 
@@ -17,8 +17,11 @@
     .ng-toast.ng-toast--top .ng-toast__list {
       top: 0;
       bottom: auto; }
-    .ng-toast.ng-toast--top.ng-toast--center .ng-toast__list {
-      position: static; }
+    .ng-toast.ng-toast--top.ng-toast--center {
+      margin-top: 0; }
+      .ng-toast.ng-toast--top.ng-toast--center .ng-toast__list {
+        position: static;
+        display: block; }
   .ng-toast.ng-toast--bottom {
     top: auto;
     bottom: 0; }

@@ -8,18 +8,18 @@
             messageStack = [];
 
         var defaults = {
-          animation: false,
+          animation: 'fade',
           className: 'success',
           additionalClasses: null,
           dismissOnTimeout: true,
           timeout: 4000,
-          dismissButton: false,
+          dismissButton: true,
           dismissButtonHtml: '&times;',
           dismissOnClick: true,
           onDismiss: null,
           compileContent: false,
           combineDuplications: false,
-          horizontalPosition: 'right', // right, center, left
+          horizontalPosition: 'center', // right, center, left
           verticalPosition: 'top', // top, bottom,
           maxNumber: 0,
           newestOnTop: true

@@ -19,9 +19,10 @@
     }
 
     &.#{$ngt-module}--center {
-
+      margin-top: 0;
       .#{$ngt-module}__list {
         position: static;
+        display: block;
       }
     }
   }
