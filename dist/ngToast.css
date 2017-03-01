@@ -22,6 +22,9 @@
       .ng-toast.ng-toast--top.ng-toast--center .ng-toast__list {
         position: static;
         display: block; }
+      .ng-toast.ng-toast--top.ng-toast--center .ng-toast__message .alert {
+        display: block;
+        padding: 1rem; }
   .ng-toast.ng-toast--bottom {
     top: auto;
     bottom: 0; }

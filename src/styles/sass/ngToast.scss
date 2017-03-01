@@ -24,6 +24,12 @@
         position: static;
         display: block;
       }
+      .#{$ngt-module}__message {
+        .alert {
+          display: block;
+          padding: 1rem;
+        }
+      }
     }
   }
 
